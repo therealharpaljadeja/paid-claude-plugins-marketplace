@@ -10,14 +10,14 @@
   },
   "plugins": [
     {
-      "name": "deep-red-style",
-      "source": "./plugins/hello-world",
-      "description": "Creates webpages with a deep red/orange atmospheric aesthetic featuring dark backgrounds (#050505), vibrant red/orange accents (#FF4500), atmospheric gradients, elegant serif typography (Playfair Display), and complex scroll-triggered animations with floating parallax cards and dot-grid backgrounds. Use when the user wants a dramatic, high-end, dark-themed landing page with red or orange color scheme.",
+      "name": "paid-claude-plugin",
+      "source": "./plugins/paid-claude-plugin",
+      "description": "A plugin for paid Claude Code skills",
       "version": "1.0.0",
       "author": {
-        "name": "Zhou Jason"
+        "name": "Harpalsinh Jadeja"
       },
-      "tags": ["deep-red-style", "dark-theme", "landing-page", "red-orange-theme", "atmosphere", "scroll-triggered-animations", "floating-parallax-cards", "dot-grid-backgrounds"]
+      "tags": ["paid-claude-plugin", "paid-claude-code-skills"]
     }
   ]
 }
