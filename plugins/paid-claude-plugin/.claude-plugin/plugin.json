@@ -1,0 +1,8 @@
+{
+  "name": "Paid Claude Plugin",
+  "description": "A plugin for paid Claude Code skills",
+  "version": "1.0.0",
+  "author": {
+    "name": "Harpalsinh Jadeja"
+  }
+}

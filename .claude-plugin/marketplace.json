@@ -1,0 +1,23 @@
+{
+  "name": "paid-claude-plugins",
+  "owner": {
+    "name": "Harpalsinh Jadeja"
+  },
+  "metadata": {
+    "description": "A marketplace for paid Claude Code plugins",
+    "version": "1.0.0",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "deep-red-style",
+      "source": "./plugins/hello-world",
+      "description": "Creates webpages with a deep red/orange atmospheric aesthetic featuring dark backgrounds (#050505), vibrant red/orange accents (#FF4500), atmospheric gradients, elegant serif typography (Playfair Display), and complex scroll-triggered animations with floating parallax cards and dot-grid backgrounds. Use when the user wants a dramatic, high-end, dark-themed landing page with red or orange color scheme.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Zhou Jason"
+      },
+      "tags": ["deep-red-style", "dark-theme", "landing-page", "red-orange-theme", "atmosphere", "scroll-triggered-animations", "floating-parallax-cards", "dot-grid-backgrounds"]
+    }
+  ]
+}
