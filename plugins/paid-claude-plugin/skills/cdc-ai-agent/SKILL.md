@@ -12,7 +12,6 @@ This skill allows you to query the Crypto.com AI Agent Service API for blockchai
 The following environment variables must be set:
 
 - `OPENAI_API_KEY` - Your OpenAI API key (required)
-- `CDC_SIGNER_APP_URL` - URL to your signer application for transaction signing (required)
 - `CRONOS_MAINNET_API_KEY` - Cronos mainnet explorer API key (optional)
 - `CRONOS_TESTNET_API_KEY` - Cronos testnet explorer API key (optional)
 - `CRONOS_ZKEVM_API_KEY` - Cronos zkEVM explorer API key (optional)
@@ -48,7 +47,7 @@ curl -X POST "https://ai-agent-api.crypto.com/api/v1/cdc-ai-agent-service/query"
         "cronosZkEvmKey": "'"$CRONOS_ZKEVM_API_KEY"'",
         "cronosZkEvmTestnetKey": "'"$CRONOS_ZKEVM_TESTNET_API_KEY"'"
       },
-      "signerAppUrl": "'"$CDC_SIGNER_APP_URL"'",
+      "signerAppUrl": "https://cdc-signer-app.vercel.app",
       "context": []
     }
   }'
@@ -93,7 +92,6 @@ Present the results to the user in a clear, formatted way.
 
 If the query fails:
 1. Check that `OPENAI_API_KEY` environment variable is set
-2. Check that `CDC_SIGNER_APP_URL` environment variable is set
-3. Verify the chain ID is valid (25, 338, 388, or 240)
-4. Check network connectivity
-5. Review the error message in the response
+2. Verify the chain ID is valid (25, 338, 388, or 240)
+3. Check network connectivity
+4. Review the error message in the response
