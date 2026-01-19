@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "thirdweb-api": {
+      "url": "https://api.thirdweb.com/mcp?secretKey=$THIRDWEB_SECRET_KEY"
+    }
+  }
+}
